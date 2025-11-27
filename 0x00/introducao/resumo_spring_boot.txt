@@ -1,0 +1,33 @@
+Spring Boot é um framework Java de código aberto que simplifica e acelera o desenvolvimento de aplicações Spring,
+tornando a criação de aplicativos web e microsserviços mais fácil e rápida. 
+Ele faz isso por meio de recursos como autoconfiguração, que configura automaticamente dependências, 
+e Spring Starters, pacotes pré-configurados que eliminam a necessidade de configurações manuais extensas. 
+O resultado é a capacidade de criar aplicativos autônomos e de nível de produção com um mínimo de código e configuração. 
+
+Benefícios Principais
+Desenvolvimento Rápido: Permite que os desenvolvedores comecem a codificar a lógica de negócios imediatamente, em vez de gastar tempo com configurações de infraestrutura complexas.
+Configuração Mínima/Zero XML: Elimina a necessidade de configurações extensas em XML, utilizando convenções sobre configuração (convention-over-configuration) e anotações para simplificar o processo.
+Aplicações Independentes (Standalone): Permite a criação de aplicações que podem ser executadas por conta própria, empacotadas como arquivos JAR executáveis, sem a necessidade de implantar em servidores de aplicação externos.
+Produtividade Aumentada: Com a configuração automática e as dependências iniciais (starters), a produtividade do desenvolvedor é significativamente melhorada.
+Facilidade de Teste: Oferece uma configuração padrão para testes de unidade e integração, simplificando a criação de ambientes de teste.
+Ecossistema Abrangente: Integra-se perfeitamente com todo o ecossistema Spring (Spring Data, Spring Security, Spring Cloud, etc.) e outras bibliotecas de terceiros.
+Suporte a Microserviços: É uma escolha ideal para a construção e gerenciamento de arquiteturas de microserviços, devido à sua natureza leve e independente. 
+
+Recursos Principais
+Auto-configuração: Analisa o classpath do projeto e configura automaticamente o Spring e as bibliotecas de terceiros com configurações sensatas e padrões inteligentes.
+Dependências "Starter": Conjuntos de dependências pré-configuradas e testadas para casos de uso comuns (por exemplo, spring-boot-starter-web para aplicações web), o que simplifica o gerenciamento de dependências no arquivo de build (Maven ou Gradle).
+Servidores Web Embutidos: Inclui servidores HTTP embutidos (Tomcat, Jetty ou Undertow), eliminando a necessidade de instalação e configuração manual de um servidor de aplicação.
+Spring Boot Actuator: Fornece recursos prontos para produção, como monitoramento, métricas, e health checks (verificação de saúde da aplicação), que ajudam a gerenciar a aplicação em ambientes de produção.
+Configuração Externa: Permite a configuração externa de propriedades, facilitando o uso da mesma aplicação em diferentes ambientes (desenvolvimento, teste, produção) sem re-empacotá-la.
+Ferramentas de Linha de Comando (CLI): Oferece uma interface de linha de comando para desenvolver e testar aplicações Spring de forma ágil.
+
+A adição de novas dependências, como JPA e Hibernate, em projetos Java modernos é gerenciada por ferramentas de automação de build, como o Maven ou o Gradle. 
+Essas ferramentas simplificam o processo de inclusão, gerenciamento de versões e resolução de dependências, baixando automaticamente os arquivos necessários (JARs) de repositórios centrais (como o Maven Central).
+No Maven, as dependências são declaradas no arquivo de configuração do projeto, chamado "pom.xml".
+No Gradle, as dependências são declaradas no arquivo de build, geralmente chamado "build.gradle" (ou build.gradle.kts se estiver usando Kotlin DSL).
+
+Referente a IDE na minha opinião, a melhor IDE para trabalhar com o Spring Boot é Eclipse.
+Altamente personalizável, popular, e a versão STS já vem com tudo pronto para Spring, é gratuito e open-source.
+
+Spring Initializr é uma ferramenta web que simplifica a criação de projetos Spring Boot, gerando automaticamente a estrutura do projeto e os arquivos de configuração com base nas escolhas do desenvolvedor. 
+Ele permite selecionar a versão do Spring Boot, a ferramenta de build (Maven ou Gradle), a linguagem (Java, Kotlin ou Groovy), as dependências iniciais e metadados como nome do projeto, para que os desenvolvedores possam começar a codificar imediatamente.
